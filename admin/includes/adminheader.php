@@ -1,4 +1,9 @@
+<?php include "../includes/db.php"; ?>
+<?php include "functions.php"; ?>
+
 <?php ob_start(); ?>
+
+
 
 
 <!DOCTYPE html>
@@ -11,6 +16,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Admin | Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>

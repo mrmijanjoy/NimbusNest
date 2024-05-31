@@ -19,6 +19,10 @@
                     <nav class="sb-sidenav-menu-nested nav">
                         <a class="nav-link" href="category.php">Category</a>
                     </nav>
+                    <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link" href="post.php">Post</a>
+                    </nav>
+
                 </div>
                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                     <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>

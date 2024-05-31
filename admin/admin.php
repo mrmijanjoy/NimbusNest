@@ -1,8 +1,8 @@
-<?php include "../includes/db.php" ?>
-<?php include "includes/adminheader.php" ?>
+
+<?php include "includes/adminheader.php"; ?>
 
 <div id="layoutSidenav">
-    <?php include "includes/sidenab.php" ?>
+    <?php include "includes/sidenab.php"; ?>
     <div id="layoutSidenav_content">
         <main>
             <div class="container-fluid px-4">
@@ -86,7 +86,7 @@
 
 
 
-        <?php include "includes/adminfooter.php" ?>
+        <?php include "includes/adminfooter.php"; ?>
 
     </div>
 </div>

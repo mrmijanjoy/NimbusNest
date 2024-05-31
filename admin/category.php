@@ -1,8 +1,8 @@
-<?php include "../includes/db.php" ?>
-<?php include "includes/adminheader.php" ?>
+
+<?php include "includes/adminheader.php"; ?>
 
 <div id="layoutSidenav">
-    <?php include "includes/sidenab.php" ?>
+    <?php include "includes/sidenab.php"; ?>
     <div id="layoutSidenav_content">
 
         <div class="container px-4">
@@ -17,23 +17,7 @@
 
                     <?php
 
-                    if (isset($_POST['submit'])) {
-
-                        $cat_title = $_POST['cat_name'];
-
-                        if ($cat_title == "" || empty($cat_title)) {
-                            echo "This field should not be empty!";
-                        } else {
-                            $query = "INSERT INTO categories(`cat_name`)";
-                            $query .= "VALUES ('$cat_title')";
-
-                            $result = mysqli_query($connection, $query);
-
-                            if (!$result) {
-                                die('Error' . mysqli_error($result));
-                            }
-                        }
-                    }
+                    insert_cats();
 
                     ?>
 
@@ -152,7 +136,7 @@
 
 
 
-        <?php include "includes/adminfooter.php" ?>
+        <?php include "includes/adminfooter.php"; ?>
 
     </div>
 
